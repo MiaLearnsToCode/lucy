@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "Stable Conversion Live Project",
+      "hashtag": " live, residential ",
+      "description": "Commissioned to design the interior and exterior of a stable currently being used as a tool shed and storage into a stunning indoor-outdoor entertainment space.",
+      "frontImage": "stableFront",
+      "backImage": "stableBack"
+    },
+    {
+      "title": "Westminster River Thames Restaurant/Bar Concept",
+      "hashtag": "commercial",
+      "description": "2-story restaurant bar set inside a triangular shaped building in the heart of London. Sustainably designed from the construction to decor to food, showcasing how cutting edge sustainable and eco-friendly design can be incorporated into a visually stunning restaurant bar experience.",
+      "frontImage": "restaurantFront",
+      "backImage": "restaurantBack"
+    },
+    {
+      "title": "Canary Wharf 10th Floor Apartment Concept",
+      "hashtag": "residential",
+      "description": "Gorgeous apartment conversion concept, a modern, eclectic weekend residence filled with unique pieces and features for a couple to enjoy.",
+      "frontImage": "apartmentFront",
+      "backImage": "apartmentBack"
+    },
+    {
+      "title": "West London Apartment Bathroom Concept",
+      "hashtag": "residential",
+      "description": "Light and tranquil bathroom concept for a West London Apartment that signals far-away destinations and relaxation in a modern London setting.",
+      "frontImage": "bathroomFront",
+      "backImage": "bathroomBack"
+    }
+  ]
+}
