@@ -293,6 +293,7 @@ $text: 'Cutive Mono', monospace;
    .navbar {
     width: 100vw;
     display: flex;
+    justify-content: space-between;
     
     section.navbar-section {
       width: 50%;
@@ -301,7 +302,7 @@ $text: 'Cutive Mono', monospace;
     .btn.btn-link, .btn-link-dark, .contact-btn, .contact-btn-dark {
       padding: 0px;
       height: fit-content;
-      font-size: 13px;
+      font-size: 12px;
       margin: 0px 10px;
       &:hover, &:active, &:focus, &:visited { 
         padding: 0px !important;
@@ -317,7 +318,8 @@ $text: 'Cutive Mono', monospace;
   }
 
   .project-container {
-    margin: 30px 0px;
+    height: fit-content;
+    margin: 60px 0px;
     flex-direction: column !important;
     font-style: 12px;
 
