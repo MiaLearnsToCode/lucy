@@ -197,6 +197,37 @@ $text: 'Cutive Mono', monospace;
 }
 
 .about-container {
+
+  a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .d-block {
+    height: 70vh;
+    object-fit: cover;
+  }
+
+  .carousel-caption {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h3, a {
+      color: white;
+      font-family: $text;
+      background-color: #141414 !important;
+      padding: 15px;
+      width: fit-content;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+  
   .about-hero {
     display: flex;
     justify-content: space-around;
@@ -206,8 +237,8 @@ $text: 'Cutive Mono', monospace;
   .about-image {
     width: 30%;
     img {
-      height: 400px;
-      width: 400px;
+      height: 300px;
+      width: 300px;
       object-fit: cover;
       border: 4px solid $primary-color;
       border-radius: 50%;
@@ -215,7 +246,7 @@ $text: 'Cutive Mono', monospace;
   }
 
   .about-bio {
-    width: 50%;
+    width: 65%;
     text-align: right;
     h2 {
       font-family: $title;
@@ -300,17 +331,17 @@ $text: 'Cutive Mono', monospace;
     }
 
     .btn.btn-link, .btn-link-dark, .contact-btn, .contact-btn-dark {
-      padding: 0px;
+      padding: 3px;
       height: fit-content;
       font-size: 12px;
-      margin: 0px 10px;
+      margin: 0px 5px;
       &:hover, &:active, &:focus, &:visited { 
-        padding: 0px !important;
+        padding: 3px !important;
         height: fit-content !important;
         font-size: 13px !important;
-        margin: 0px 10px !important;
+        margin: 0px 5px !important;
       }
-   }
+    }
 
    .logo {
      display: none;
@@ -343,6 +374,7 @@ $text: 'Cutive Mono', monospace;
   }
 
   .about-container {
+
     .about-hero {
       flex-direction: column;
       padding: 80px 30px;
