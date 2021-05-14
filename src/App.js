@@ -6,7 +6,7 @@ function App() {
     <BrowserRouter>
       <main>
         <div className="main-wrapper">
-          coming soon..
+          coming soon...
         </div>
       </main>
     </BrowserRouter>
